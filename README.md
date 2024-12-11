@@ -25,7 +25,7 @@ project_root/
 │   ├── products.py
 │   └── carts.py
 ├── scripts/
-│   ├── utils.py
+│   ├── helpers.py
 │   └── bg_sql_scripts.py
 ├── config/
 │   └── config.py
@@ -136,4 +136,4 @@ airflow scheduler
 ```
 
 3. Access Airflow UI at <http://localhost:8080>
-4. Trigger the DAG named "pipeline" through the Airflow UI
+4. Trigger the DAG named `dummy_pipeline` through the Airflow UI
