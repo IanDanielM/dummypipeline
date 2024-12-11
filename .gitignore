@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+
+venv/
+tox.ini
+.env
+.pytest_cache/
+.venv/
+dataset/
+*.csv
+*.json
+
